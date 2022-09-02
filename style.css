@@ -1,0 +1,42 @@
+h1{
+    background-color: red;
+    font-family: sans-serif;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.options{  
+    background-color: red;
+    font-family: sans-serif;
+    text-align:right;
+    padding: 8px;
+}
+p{
+    font-family: sans-serif;
+    background-color: rgb(125, 176, 235);
+}
+.product{
+    background-color: gray;
+    padding: auto;
+    border: 20px;
+}
+a:hover{
+    font-style: oblique;
+    }
+    .grid-container {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 10px;
+      }
+      
+      .grid-item {
+
+
+        padding: 2px;
+        font-size: 30px;
+        text-align: center;
+      }
